@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Global Container — Логистика</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="container header-container">
+
+        <a href="index.html" class="logo">
+
+            <img src="assets/images/logoGC.png" alt="Global Container Logo">
+
+        </a>
+
+        <nav class="nav">
+
+            <a href="#about" data-i18n="about">О нас</a>
+            <a href="#services" data-i18n="services">Услуги</a>
+            <a href="#benefits" data-i18n="benefits">Преимущества</a>
+
+        </nav>
+
+        <div class="header-actions">
+
+            <div class="language-switch">
+
+                <button class="lang-option active" data-lang="ru">RU</button>
+                <button class="lang-option" data-lang="en">EN</button>
+
+                <div class="lang-slider"></div>
+
+            </div>
+
+            <button class="menu-btn">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+<main>
+
+    <section class="hero">
+
+        <div class="hero-bg">
+            <img src="/assets/images/backgroundGC.png" alt="Container ship">
+        </div>
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+
+            <div class="hero-inner">
+
+                <h1 class="hero-title">
+                    Не грузитесь, мы все сделаем сами
+                </h1>
+
+                <p class="hero-text">
+                    Профессиональная логистика и международные перевозки любой сложности.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#contact" class="btn btn-primary">
+                        Рассчитать стоимость
+                    </a>
+
+                    <a href="#services" class="btn btn-outline">
+                        Услуги
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="about-bg">
+            <img src="assets/images/matericks.jpg" alt="">
+        </div>
+
+        <div class="container">
+
+            <div class="about-header">
+
+                <span class="section-label">О компании</span>
+
+                <h2 class="section-title">
+                    Масштаб, которому доверяют
+                </h2>
+
+            </div>
+
+            <div class="about-stats">
+
+                <div class="stat-card">
+
+                    <span class="material-symbols-outlined stat-icon">package_2</span>
+
+                    <h3 class="stat-number" data-target="11000">
+                        0
+                    </h3>
+
+                    <p class="stat-text">
+                        Грузов успешно доставлено по всему миру
+                    </p>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <span class="material-symbols-outlined stat-icon">sentiment_satisfied</span>
+
+                    <h3 class="stat-number" data-target="300">
+                        0
+                    </h3>
+
+                    <p class="stat-text">
+                        Довольных постоянных клиентов
+                    </p>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <span class="material-symbols-outlined stat-icon">handshake</span>
+
+                    <h3 class="stat-number" data-target="100">
+                        0
+                    </h3>
+
+                    <p class="stat-text">
+                        Компаний партнёров в крупнейших портах
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="services" id="services">
+
+        <div class="container">
+
+            <div class="services-header">
+
+                <span class="section-label">Наши услуги</span>
+
+                <h2 class="section-title">
+                    Перевозки с Global Container
+                </h2>
+
+            </div>
+
+            <div class="services-grid">
+
+                <div class="service-card">
+
+                    <div class="service-image">
+                        <img src="/assets/images/ship_cont.png" alt="Морские перевозки">
+                    </div>
+
+                    <div class="service-content">
+                        <h3 class="service-title">Морские перевозки</h3>
+
+                        <p class="service-text">
+                            Самый надежный способ доставки крупных партий товара.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="service-card">
+
+                    <div class="service-image">
+                        <img src="/assets/images/track.png" alt="Автоперевозки">
+                    </div>
+
+                    <div class="service-content">
+                        <h3 class="service-title">Автоперевозки</h3>
+
+                        <p class="service-text">
+                            Доставка от двери до двери по территории СНГ и Европы.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="service-card">
+
+                    <div class="service-image">
+                        <img src="/assets/images/train.png" alt="ЖД перевозки">
+                    </div>
+
+                    <div class="service-content">
+                        <h3 class="service-title">Ж/Д перевозки</h3>
+
+                        <p class="service-text">
+                            Оптимальное соотношение цены и скорости для дальних маршрутов.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="service-card">
+
+                    <div class="service-image">
+                        <img src="/assets/images/plane.png" alt="Авиаперевозки">
+                    </div>
+
+                    <div class="service-content">
+                        <h3 class="service-title">Авиаперевозки</h3>
+
+                        <p class="service-text">
+                            Максимально быстрая доставка для срочных и ценных грузов.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        <div class="cargo-section">
+
+            <div class="container cargo-grid">
+
+                <div class="cargo-card">
+
+                    <h3 class="cargo-title">
+                        Обработка грузов
+                    </h3>
+
+                    <ul class="cargo-list">
+
+                        <li>
+                            Контейнерные, рефрижераторные, конвенциональные (включая санкционные).
+                        </li>
+
+                        <li>
+                            Организация погрузки / выгрузки, таможенное сопровождение.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="cargo-card cargo-route">
+
+                    <img src="/assets/images/planeta.png" alt="routes">
+
+                    <p class="cargo-route-text">
+                        ЕС — Китай — Средняя Азия — РФ
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+
+    <section class="benefits" id="benefits">
+
+        <div class="container benefits-grid">
+
+            <div class="benefits-content">
+
+                <span class="section-label">Преимущества</span>
+
+                <h2 class="benefit-title">
+                    Почему выбирают Global Container
+                </h2>
+
+                <p class="benefits-description">
+                    Мы делаем международную логистику простой, надежной и эффективной для вашего бизнеса.
+                </p>
+
+
+                <div class="benefits-list">
+
+                    <div class="benefit-item">
+
+                        <span class="material-symbols-outlined benefit-icon">thumb_up</span>
+
+                        <div>
+                            <h4>Удобство</h4>
+                            <p>Мы берем на себя все этапы перевозки — от организации доставки до таможенного оформления.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="benefit-item">
+
+                        <span class="material-symbols-outlined benefit-icon">public</span>
+
+                        <div>
+                            <h4>Доступность</h4>
+                            <p>Широкая география перевозок: Европа, Китай, Средняя Азия и Россия.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="benefit-item">
+
+                        <span class="material-symbols-outlined benefit-icon">workspace_premium</span>
+
+                        <div>
+                            <h4>Опыт</h4>
+                            <p>Более 15 лет успешной работы в сфере международной логистики.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="benefit-item">
+
+                        <span class="material-symbols-outlined benefit-icon">shield</span>
+
+                        <div>
+                            <h4>Уверенность</h4>
+                            <p>Контроль перевозки на каждом этапе и полная прозрачность логистики.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="benefit-item">
+
+                        <span class="material-symbols-outlined benefit-icon">bolt</span>
+
+                        <div>
+                            <h4>Легкость</h4>
+                            <p>Минимум бюрократии — мы делаем процесс перевозки простым для клиента.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="benefit-item">
+
+                        <span class="material-symbols-outlined benefit-icon">sync_alt</span>
+
+                        <div>
+                            <h4>Маневренность</h4>
+                            <p>Гибкий подбор маршрутов и транспорта под любые задачи бизнеса.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="benefits-image">
+
+                <img src="/assets/images/benefit.jpg" alt="Логистика">
+
+                <div class="experience-card">
+
+                    <div class="experience-number">15+</div>
+
+                    <div class="experience-text">
+                        лет опыта в логистике
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <div class="container contact-container">
+
+            <div class="contact-header">
+
+<span class="section-label">
+Заявка
+</span>
+
+                <h2 class="section-title">
+                    Рассчитать стоимость перевозки
+                </h2>
+
+                <p class="contact-description">
+                    Оставьте заявку и наш менеджер свяжется с вами.
+                </p>
+
+            </div>
+
+
+            <form class="contact-form">
+
+                <div class="form-grid">
+
+                    <input type="text" placeholder="Откуда (Пункт А)" required>
+
+                    <input type="text" placeholder="Куда (Пункт Б)" required>
+
+                    <input type="text" placeholder="Ваше имя" required>
+
+                    <input type="text" placeholder="Название компании">
+
+                    <input type="tel" placeholder="Телефон" required>
+
+                    <input type="email" placeholder="Email">
+
+                </div>
+
+
+                <textarea placeholder="Описание груза (вес, объем, тип)" rows="4"></textarea>
+
+
+                <button class="btn btn-primary form-btn">
+                    Отправить заявку
+                </button>
+
+
+                <p class="form-note">
+                    Нажимая кнопку "Отправить заявку", вы соглашаетесь с политикой конфиденциальности.
+                </p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="logo">
+
+                <img src="assets/images/logoGC.png" alt="Global Container Logo">
+
+            </a>
+
+            <p class="footer-description">
+                Международный логистический оператор. Перевозки грузов по маршрутам
+                Европа — Китай — Средняя Азия — Россия.
+            </p>
+
+        </div>
+
+
+        <div class="footer-nav">
+
+            <h4>Навигация</h4>
+
+            <ul>
+
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#services">Перевозки</a></li>
+                <li><a href="#benefits">Преимущества</a></li>
+                <li><a href="#contact">Заявка</a></li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="footer-contacts">
+
+            <h4>Контакты</h4>
+
+            <ul>
+
+                <li>
+                    <span class="material-symbols-outlined">call</span>
+                    +7 (495) 123-45-67
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">mail</span>
+                    info@global-container.ru
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">location_on</span>
+                    Москва, Россия
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Global Container. Все права защищены.
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="/assets/js/main.js"></script>
+</body>
