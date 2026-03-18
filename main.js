@@ -128,3 +128,30 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 });
+
+const messenger = document.querySelector(".messenger");
+const toggle = document.querySelector(".messenger-toggle");
+
+toggle.addEventListener("click", () => {
+    messenger.classList.toggle("active");
+});
+
+/* emailjs*/
+const form = document.getElementById("contact-form");
+
+form.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    emailjs.sendForm(
+        "service_fuzfvyf",
+        "template_xdmxpm7",
+        this
+    )
+        .then(() => {
+            form.innerHTML = "<p>Спасибо! Мы свяжемся с вами 🚀</p>";
+        })
+        .catch((error) => {
+            console.error(error);
+            alert("Ошибка отправки ❌");
+        });
+});
