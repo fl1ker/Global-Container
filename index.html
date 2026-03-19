@@ -14,8 +14,10 @@
     <!-- Open Graph -->
     <meta property="og:title" content="Global Container — международная логистика">
     <meta property="og:description" content="Перевозки грузов под ключ. Европа, Китай, Средняя Азия.">
-    <meta property="og:image" content="https://твой-сайт/images/preview.jpg">
+    <meta property="og:image" content="https://твой-сайт/images/favicon.ico">
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://твой-сайт/">
+    <link rel="canonical" href="https://твой-сайт/">
 
     <link rel="icon" href="images/favicon.ico">
 
@@ -73,12 +75,12 @@
 
         <div class="hero-bg">
 
-            <video autoplay muted loop playsinline>
+            <video autoplay muted loop playsinline preload="none" poster="images/preview.png">
                 <source src="images/main.mp4" type="video/mp4">
             </video>
 
-        </div>
 
+        </div>
 
         <div class="hero-overlay"></div>
 
@@ -86,21 +88,21 @@
 
             <div class="hero-inner">
 
-                <h1 class="hero-title">
+                <h1 class="hero-title" data-i18n="heroTitle">
                     Логистический конструктор любой сложности
                 </h1>
 
-                <p class="hero-text">
+                <p class="hero-text" data-i18n="heroText">
                     Мультимодальные контейнерные перевозки.
                 </p>
 
                 <div class="hero-buttons">
 
-                    <a href="#contact" class="btn btn-primary">
+                    <a data-i18n="calculatePrice" href="#contact" class="btn btn-primary">
                         Рассчитать стоимость
                     </a>
 
-                    <a href="#services" class="btn btn-outline">
+                    <a data-i18n="services" href="#services" class="btn btn-outline">
                         Услуги
                     </a>
 
@@ -122,9 +124,9 @@
 
             <div class="about-header">
 
-                <span class="section-label">О компании</span>
+                <span class="section-label" data-i18n="aboutCompany">О компании</span>
 
-                <h2 class="section-title">
+                <h2 class="section-title" data-i18n="aboutTitle">
                     Масштаб, которому доверяют
                 </h2>
 
@@ -140,7 +142,7 @@
                         0
                     </h3>
 
-                    <p class="stat-text">
+                    <p class="stat-text" data-i18n="aboutStat">
                         Грузов успешно доставлено в импортном и экспортном направлении
                     </p>
 
@@ -154,7 +156,7 @@
                         0
                     </h3>
 
-                    <p class="stat-text">
+                    <p class="stat-text" data-i18n="statClient">
                         Довольных постоянных клиентов
                     </p>
 
@@ -168,7 +170,7 @@
                         0
                     </h3>
 
-                    <p class="stat-text">
+                    <p class="stat-text" data-i18n="statComp">
                         Компаний партнеров по всему миру
                     </p>
 
@@ -177,20 +179,20 @@
             </div>
             <div class="about-geo">
 
-                <h3 class="geo-title">
+                <h3 class="geo-title" data-i18n="geoTitle">
                     География перевозок
                 </h3>
 
-                <p class="geo-subtitle">
+                <p class="geo-subtitle" data-i18n="geoSubTitle">
                     Основные направления нашей работы
                 </p>
 
                 <div class="geo-tags">
 
-                    <span>ЕС</span>
-                    <span>Китай</span>
-                    <span>Средняя Азия</span>
-                    <span>РФ</span>
+                    <span data-i18n="EU">ЕС</span>
+                    <span data-i18n="China">Китай</span>
+                    <span data-i18n="Asia">Средняя Азия</span>
+                    <span data-i18n="Rus">РФ</span>
 
                 </div>
 
@@ -206,9 +208,9 @@
 
             <div class="services-header">
 
-                <span class="section-label">Наши услуги</span>
+                <span class="section-label" data-i18n="OurServ">Наши услуги</span>
 
-                <h2 class="section-title">
+                <h2 class="section-title" data-i18n="ServTitle">
                     Перевозки с Global Container
                 </h2>
 
@@ -223,9 +225,9 @@
                     </div>
 
                     <div class="service-content">
-                        <h3 class="service-title">Морские перевозки</h3>
+                        <h3 class="service-title" data-i18n="SeaTrans">Морские перевозки</h3>
 
-                        <p class="service-text">
+                        <p class="service-text" data-i18n="SeaTransText">
                             Самый надежный способ доставки, включая температурные и опасные грузы.
                         </p>
                     </div>
@@ -239,9 +241,9 @@
                     </div>
 
                     <div class="service-content">
-                        <h3 class="service-title">Автоперевозки</h3>
+                        <h3 class="service-title" data-i18n="AutoTrans">Автоперевозки</h3>
 
-                        <p class="service-text">
+                        <p class="service-text" data-i18n="AutoTransText">
                             Ускоренная доставка сборных и комплектных грузов из Китая в СНГ и ЕС.
                         </p>
                     </div>
@@ -255,9 +257,9 @@
                     </div>
 
                     <div class="service-content">
-                        <h3 class="service-title">Ж/Д перевозки</h3>
+                        <h3 class="service-title" data-i18n="TrainTrans">Ж/Д перевозки</h3>
 
-                        <p class="service-text">
+                        <p class="service-text" data-i18n="TrainTransText">
                             Оптимальное соотношение цены и скорости для доставки сборных и комплектных грузов из Китая в СНГ и ЕС.
                         </p>
                     </div>
@@ -271,9 +273,9 @@
                     </div>
 
                     <div class="service-content">
-                        <h3 class="service-title">Авиаперевозки</h3>
+                        <h3 class="service-title" data-i18n="AviaTrans">Авиаперевозки</h3>
 
-                        <p class="service-text">
+                        <p class="service-text" data-i18n="AviaTransText">
                             Экспресс-логистика для срочных и ценных грузов.
                         </p>
                     </div>
@@ -288,23 +290,23 @@
 
                 <div class="cargo-card">
 
-                    <h3 class="cargo-title">
+                    <h3 class="cargo-title" data-i18n="cargoTitle">
                         Профессиональная обработка всех типов грузов в портах Юго-Восточной Азии и Российской Федерации:
                     </h3>
 
                     <ul class="cargo-list">
 
-                        <li>
+                        <li data-i18n="cargoCont">
                             Контейнерные.
                         </li>
 
-                        <li>
+                        <li data-i18n="cargoRefr">
                             Рефрижераторные.
                         </li>
-                        <li>
+                        <li data-i18n="cargoDang">
                             Опасные.
                         </li>
-                        <li>
+                        <li data-i18n="cargoDiff">
                             Негабаритные с использованием специального оборудования.
                         </li>
 
@@ -314,26 +316,26 @@
 
                 <div class="cargo-card">
 
-                    <h3 class="cargo-title">
+                    <h3 class="cargo-title" data-i18n="cargoSubTitle">
                         Полный цикл работ на припортовых терминалах:
                     </h3>
 
                     <ul class="cargo-list">
 
-                        <li>
+                        <li data-i18n="cargoInOut">
                             Погрузка/выгрузка.
                         </li>
 
-                        <li>
+                        <li data-i18n="cargoCross">
                             Кросс-Докинг.
                         </li>
-                        <li>
+                        <li data-i18n="cargoWeight">
                             Взвешивание.
                         </li>
-                        <li>
+                        <li data-i18n="cargoCheckPlomb">
                             Проверка целостности пломб.
                         </li>
-                        <li>
+                        <li data-i18n="cargoBorder">
                             Таможенное сопровождение.
                         </li>
 
@@ -354,13 +356,13 @@
 
             <div class="benefits-content">
 
-                <span class="section-label">Преимущества</span>
+                <span class="section-label" data-i18n="Benefit">Преимущества</span>
 
-                <h2 class="benefit-title">
+                <h2 class="benefit-title" data-i18n="benefitTitle">
                     Почему выбирают Global Container
                 </h2>
 
-                <p class="benefits-description">
+                <p class="benefits-description" data-i18n="benefitDescription">
                     Мы делаем международную логистику простой, надежной и эффективной для вашего бизнеса.
                 </p>
 
@@ -372,8 +374,8 @@
                         <span class="material-symbols-outlined benefit-icon">thumb_up</span>
 
                         <div>
-                            <h4>Удобство</h4>
-                            <p>Мы берем на себя все этапы перевозки — от организации доставки до таможенного оформления.</p>
+                            <h4 data-i18n="comfortable">Удобство</h4>
+                            <p data-i18n="comfortableSubTitle">Мы берем на себя все этапы перевозки — от организации доставки до таможенного оформления.</p>
                         </div>
 
                     </div>
@@ -384,8 +386,8 @@
                         <span class="material-symbols-outlined benefit-icon">public</span>
 
                         <div>
-                            <h4>Доступность</h4>
-                            <p>Широкая география перевозок: Европа, Китай, Средняя Азия и Россия.</p>
+                            <h4 data-i18n="access">Доступность</h4>
+                            <p data-i18n="accessSubTitle">Широкая география перевозок: Европа, Китай, Средняя Азия и Россия.</p>
                         </div>
 
                     </div>
@@ -396,8 +398,8 @@
                         <span class="material-symbols-outlined benefit-icon">workspace_premium</span>
 
                         <div>
-                            <h4>Опыт</h4>
-                            <p>Более 9 лет успешной работы в сфере международной логистики.</p>
+                            <h4 data-i18n="exp">Опыт</h4>
+                            <p data-i18n="expSubTitle">Более 9 лет успешной работы в сфере международной логистики.</p>
                         </div>
 
                     </div>
@@ -408,8 +410,8 @@
                         <span class="material-symbols-outlined benefit-icon">shield</span>
 
                         <div>
-                            <h4>Уверенность</h4>
-                            <p>Контроль перевозки на каждом этапе и полная прозрачность логистики.</p>
+                            <h4 data-i18n="confident">Уверенность</h4>
+                            <p data-i18n="confidentSubTitle">Контроль перевозки на каждом этапе и полная прозрачность логистики.</p>
                         </div>
 
                     </div>
@@ -420,8 +422,8 @@
                         <span class="material-symbols-outlined benefit-icon">bolt</span>
 
                         <div>
-                            <h4>Легкость</h4>
-                            <p>Минимум бюрократии — мы делаем процесс перевозки простым и понятным для клиента.</p>
+                            <h4 data-i18n="easy">Легкость</h4>
+                            <p data-i18n="easySubTitle">Минимум бюрократии — мы делаем процесс перевозки простым и понятным для клиента.</p>
                         </div>
 
                     </div>
@@ -432,8 +434,8 @@
                         <span class="material-symbols-outlined benefit-icon">sync_alt</span>
 
                         <div>
-                            <h4>Маневренность</h4>
-                            <p>Гибкий подбор маршрутов и транспорта под любые задачи бизнеса.</p>
+                            <h4 data-i18n="Maneuverability">Маневренность</h4>
+                            <p data-i18n="ManeuverabilitySubTitle">Гибкий подбор маршрутов и транспорта под любые задачи бизнеса.</p>
                         </div>
 
                     </div>
@@ -451,7 +453,7 @@
 
                     <div class="experience-number">9+</div>
 
-                    <div class="experience-text">
+                    <div class="experience-text" data-i18n="ExperienceNumb">
                         лет опыта в логистике
                     </div>
 
@@ -469,11 +471,11 @@
 
             <div class="contact-header">
 
-                <h2 class="section-title-contact">
+                <h2 class="section-title-contact" data-i18n="CountPrice">
                     Рассчитать стоимость перевозки
                 </h2>
 
-                <p class="contact-description">
+                <p class="contact-description" data-i18n="CountDescription">
                     Оставьте заявку и наш менеджер свяжется с вами.
                 </p>
 
@@ -484,27 +486,27 @@
 
                 <div class="form-grid">
 
-                    <input type="text" name="from_city" placeholder="Откуда (Пункт А)" required>
+                    <input type="text" name="from_city" data-i18n="from" placeholder="Откуда (Пункт А)" required>
 
-                    <input type="text" name="to_city" placeholder="Куда (Пункт Б)" required>
+                    <input type="text" name="to_city" data-i18n="to" placeholder="Куда (Пункт Б)" required>
 
-                    <input type="text" name="name" placeholder="Ваше имя" required>
+                    <input type="text" name="name" data-i18n="name" placeholder="Ваше имя" required>
 
-                    <input type="text" name="company" placeholder="Название компании" required>
+                    <input type="text" name="company" data-i18n="compName" placeholder="Название компании" required>
 
-                    <input type="tel" name="phone" placeholder="Телефон" required>
+                    <input type="tel" name="phone" data-i18n="phone" placeholder="Телефон" required>
 
-                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="email" name="email" data-i18n="email" placeholder="Email" required>
 
                 </div>
 
-                <textarea name="cargo" placeholder="Описание груза (вес, объем, тип)" rows="4" required></textarea>
+                <textarea name="cargo" data-i18n="descCargo" placeholder="Описание груза (вес, объем, тип)" rows="4" required></textarea>
 
-                <button type="submit" class="btn btn-primary form-btn">
+                <button type="submit" class="btn btn-primary form-btn" data-i18n="btnSend">
                     Отправить заявку
                 </button>
 
-                <p class="form-note">
+                <p class="form-note" data-i18n="PoliticaConf">
                     Нажимая кнопку "Отправить заявку", вы соглашаетесь с политикой конфиденциальности.
                 </p>
 
@@ -528,7 +530,7 @@
 
             </a>
 
-            <p class="footer-description">
+            <p class="footer-description" data-i18n="footerDescription">
                 Эффективные логистические решения для бизнеса.
                 Надёжность, скорость и контроль на каждом этапе.
             </p>
@@ -538,14 +540,14 @@
 
         <div class="footer-nav">
 
-            <h4>Навигация</h4>
+            <h4 data-i18n="navigation">Навигация</h4>
 
             <ul>
 
-                <li><a href="#about">О нас</a></li>
-                <li><a href="#services">Перевозки</a></li>
-                <li><a href="#benefits">Преимущества</a></li>
-                <li><a href="#contact">Рассчитать</a></li>
+                <li><a href="#about" data-i18n="about">О нас</a></li>
+                <li><a href="#services" data-i18n="services">Услуги</a></li>
+                <li><a href="#benefits" data-i18n="Benefit">Преимущества</a></li>
+                <li><a href="#contact" data-i18n="count">Рассчитать</a></li>
 
             </ul>
 
@@ -554,7 +556,7 @@
 
         <div class="footer-contacts">
 
-            <h4>Контакты</h4>
+            <h4 data-i18n="contact">Контакты</h4>
 
             <ul>
                 <li>
@@ -588,7 +590,7 @@
 
     <div class="footer-bottom">
 
-        <p>
+        <p data-i18n="rights">
             © 2026 Global Container. Все права защищены.
         </p>
 
@@ -604,16 +606,18 @@
 
     <div class="messenger-list">
 
-        <a href="https://wa.me/375293990181" target="_blank" class="msg-item">
-            <img src="images/wa.png" alt="WhatsApp">
+
+
+        <a href="https://wa.me/375296883705" target="_blank" class="msg-item">
+            <img src="images/whatsup.png" alt="WhatsApp" style="width: 50px; height: 50px;">
         </a>
 
-        <a href="https://t.me/Aleksey_Tutski" target="_blank" class="msg-item">
-            <img src="images/tg.png" alt="Telegram">
+        <a href="https://t.me/@MMR2411" target="_blank" class="msg-item">
+            <img src="images/tg%20(1).png" alt="Telegram" style="width: 50px; height: 50px;">
         </a>
 
-        <a href="viber://add?number=375293990181" target="_blank" class="msg-item">
-            <img src="images/vb.png" alt="Viber">
+        <a href="viber://add?number=375296883705" target="_blank" class="msg-item">
+            <img src="images/viber1300.png" alt="Viber" style="width: 50px; height: 50px;">
         </a>
 
     </div>

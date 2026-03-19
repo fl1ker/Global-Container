@@ -66,7 +66,12 @@ async function loadLanguage(lang){
 
         const key = el.dataset.i18n;
 
-        if(translations[key]){
+        // для input и textarea
+        if(el.tagName === "INPUT" || el.tagName === "TEXTAREA"){
+            el.placeholder = translations[key];
+        }
+        // для обычного текста
+        else{
             el.textContent = translations[key];
         }
 
