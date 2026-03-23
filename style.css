@@ -1073,7 +1073,9 @@ body{
         transform:translateY(0);
     }
 }
-
+[data-i18n="regNumber"] {
+    white-space: pre-line;
+}
 
 
 
